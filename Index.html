@@ -1,13 +1,18 @@
-#Cloudbots Ver1<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Cloudbotscr - Index Homepage</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-
+  <title>CloudBotsCR - AI-Powered Cloud Solutions in Costa Rica</title>
+  <meta name="description" content="CloudBotsCR delivers AI-powered chatbots, cloud automation, and smart solutions for businesses in Costa Rica. Property rentals, courier services, and more.">
+  <meta name="keywords" content="AI chatbots Costa Rica, cloud automation, property rental bots, courier services, AI SaaS, smart home automation">
+  
+  <!-- Open Graph Meta Tags for Social Sharing -->
+  <meta property="og:title" content="CloudBotsCR - AI-Powered Cloud Solutions">
+  <meta property="og:description" content="Transform your business with AI chatbots and cloud automation">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cloudbotscr.com">
+  
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -15,7 +20,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,13 +32,18 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Regna
-  * Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Shopify Buy Button SDK -->
+  <script async src="https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js"></script>
+  
+  <!-- AWS Amplify Analytics (Optional) -->
+  <script>
+    // Initialize AWS Amplify Analytics when implemented
+    window.amplifyConfig = {
+      region: 'us-east-1',
+      userPoolId: 'YOUR_USER_POOL_ID',
+      userPoolWebClientId: 'YOUR_CLIENT_ID'
+    };
+  </script>
 </head>
 
 <body class="index-page">
@@ -42,9 +52,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Cloudbotscr</h1>
+        <h1 class="sitename">CloudBotsCR</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -53,24 +61,20 @@
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#pricing">Pricing</a></li>
           <li><a href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Category</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#"><span>Solutions</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Costa Rica Property Rental</a></li>
-              <li class="dropdown"><a href="#"><span>Cloud&AI Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Costa Rica Property Rental</a></li>
-                  <li><a href="#">Logistics Liberty Express</a></li>
-                  <li><a href="#">Home Interior Design Products</a></li>
-                  <li><a href="#">Accessories and Essentials</a></li>
-                  <li><a href="#">Home Technology Bots</a></li>
-                  <li><a href="#">Entrepreneurship Bots</a></li>
-                  <li><a href="#">Social Services Bots</a></li>
-                </ul>
-              </li>
-              
+              <li><a href="#property-rental">Property Rental AI</a></li>
+              <li><a href="#courier-services">Liberty Express</a></li>
+              <li><a href="#chatbot-services">AI Chatbots</a></li>
+              <li><a href="#home-tech">Home Technology</a></li>
+              <li><a href="#business-bots">Business Automation</a></li>
+              <li><a href="#social-services">Social Services</a></li>
+            </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="https://shop.cloudbotscr.com" class="btn-shop" target="_blank">Shop Now</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -82,554 +86,438 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/futuristic-robot-sitting-on-a-sandy-beach.webp" alt="" data-aos="fade-in">
+      <img src="assets/img/futuristic-robot-sitting-on-a-sandy-beach.webp" alt="AI Technology in Costa Rica" data-aos="fade-in">
 
       <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <h2>Welcome to CloudBotsCR</h2>
-            <p>We make Cloud solutions efficiently with AI</p>
-            <a href="#about" class="btn-get-started">Get Started</a>
+            <p>AI-Powered Cloud Solutions for Modern Businesses in Costa Rica</p>
+            <div class="hero-buttons">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="#contact" class="btn-demo">Request Demo</a>
+            </div>
           </div>
         </div>
       </div>
-
-    </section><!-- /Hero Section -->
+    </section>
 
     <!-- About Section -->
     <section id="about" class="about section">
-
       <div class="container">
-
         <div class="row gy-4">
-
           <div class="col-lg-6 position-relative d-flex align-items-center order-lg-last" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/real-world endpoints-interconnected.webp" class="img-fluid flex-shrink-0" alt="">
+            <img src="assets/img/real-world endpoints-interconnected.webp" class="img-fluid flex-shrink-0" alt="Cloud Architecture">
             <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
           </div>
 
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-            <h3>About Us</h3>
+            <h3>About CloudBotsCR</h3>
             <p>
-              At CloudBotsCR, we bring the power of artificial intelligence to everyday life in Costa Rica. From smart chatbot services for home automation and entrepreneurship to innovative tools for social services, we deliver practical tech solutions that enhances your world. Our offerings also include home design products, stylish accessories, rental property support, and Amazon courier services—making life simpler, smarter, and more connected.
+              At CloudBotsCR, we bring the power of artificial intelligence to everyday life in Costa Rica. As your trusted AI Service Provider (AISP), we deliver cutting-edge SaaS solutions that transform how businesses operate. From intelligent chatbots for home automation and entrepreneurship to innovative tools for social services, we provide practical technology solutions hosted on AWS cloud infrastructure.
             </p>
-            <ul>
-              <li>
-                <i class="bi bi-diagram-3"></i>
-                <div>
-                  <h5>Liberty Express Santa Teresa - Courier Services</h5>
-                  <p>At Liberty Express Santa Teresa, we make it easy to shop online and receive your favorite Amazon products—right to your doorstep in the heart of Costa Rica’s jungle paradise. Whether you're ordering home interior design pieces or everyday essentials, our reliable delivery service brings the convenience of global shopping to the beaches of Santa Teresa. Enjoy fast, secure, and hassle-free delivery powered by smart logistics and local expertise.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-fullscreen-exit"></i>
-                <div>
-                  <h5>Costa Rica Property Rentals - CloudBots Rental</h5>
-                  <p>Discover a smarter way to rent with our AI-powered property rental service in Costa Rica. Our cloud-based platform uses intelligent chatbots to provide real-time room availability, streamline bookings, and securely process payments—24/7. Whether you're managing a property or planning your stay, we make the entire experience faster, easier, and more efficient with the help of cutting-edge automation and personalized support.</p>
-                </div>
-              </li>
-              <li>
-                <i class="bi bi-broadcast"></i>
-                <div>
-                  <h5>CloudBots Solutions – Smarter Living with AI</h5>
-                  <p>CloudbotsCR brings intelligent automation to your fingertips through advanced chatbot solutions tailored for Costa Rica. Our AI-powered bots seamlessly integrate with home devices (IoT), making smart living more accessible and efficient. Entrepreneurs can automate customer engagement, streamline operations, and boost productivity, while social service providers benefit from responsive, always-on support systems. With CloudbotsCR, experience the future of connected living and smarter business—driven by the cloud.</p>
-                </div>
-              </li>
-            </ul>
+            
+            <div class="solutions-grid mt-4">
+              <div class="solution-item" data-aos="fade-up" data-aos-delay="150">
+                <i class="bi bi-truck"></i>
+                <h5>Liberty Express Santa Teresa</h5>
+                <p>Door-to-door Amazon delivery service bringing global shopping to Costa Rica's beaches with smart logistics powered by AI tracking and automation.</p>
+              </div>
+
+              <div class="solution-item" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-house-door"></i>
+                <h5>AI-Powered Property Rentals</h5>
+                <p>Revolutionary rental management system using AI chatbots for real-time availability, automated bookings, and secure payments—24/7 operations.</p>
+              </div>
+
+              <div class="solution-item" data-aos="fade-up" data-aos-delay="250">
+                <i class="bi bi-robot"></i>
+                <h5>CloudBots AI Solutions</h5>
+                <p>Enterprise-grade chatbot solutions integrating with IoT devices, automating customer engagement, and providing always-on support for businesses and social services.</p>
+              </div>
+            </div>
           </div>
-
         </div>
-
       </div>
-
-    </section><!-- /About Section -->
+    </section>
 
     <!-- Stats Section -->
     <section id="stats" class="stats section light-background">
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row gy-4">
-
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Clients</p>
+              <p>Active Clients</p>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
+              <p>Completed Projects</p>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1" class="purecounter"></span>
               <p>Hours Of Support</p>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Workers</p>
+              <p>Team Members</p>
             </div>
-          </div><!-- End Stats Item -->
-
+          </div>
         </div>
-
       </div>
-
-    </section><!-- /Stats Section -->
+    </section>
 
     <!-- Services Section -->
     <section id="services" class="services section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Our Services</h2>
-        <p>Empowering customers with cutting-edge Cloud, AI, and Automation solutions.</p>
-      </div><!-- End Section Title -->
+        <h2>Our AI Services</h2>
+        <p>Empowering businesses with cutting-edge Cloud, AI, and Automation solutions powered by AWS infrastructure.</p>
+      </div>
 
       <div class="container">
-
         <div class="row gy-4">
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
+            <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-activity"></i>
+                <i class="bi bi-house-heart"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Costa Rica Property Rental</h3>
-              </a>
-              <p>treamlines Costa Rica property rentals with AI-powered chatbots that handle room availability, bookings, and payments instantly—anytime, anywhere.</p>
+              <h3>Property Rental AI Bot</h3>
+              <p>Intelligent chatbot system for managing Costa Rica property rentals with real-time availability, automated bookings, and secure payment processing via AWS Lambda and DynamoDB.</p>
+              <a href="https://shop.cloudbotscr.com/products/property-rental-bot" class="stretched-link" target="_blank">Learn More</a>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-broadcast"></i>
+                <i class="bi bi-box-seam"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Logistics Liberty Express</h3>
-              </a>
-              <p>CloudbotsCR enhances Liberty Express logistics by automating package tracking, delivery updates, and customer support through smart AI chatbots.</p>
+              <h3>Liberty Express Logistics</h3>
+              <p>AI-powered package tracking, delivery notifications, and customer support automation for seamless courier services from Amazon to Costa Rica.</p>
+              <a href="https://shop.cloudbotscr.com/products/courier-services" class="stretched-link" target="_blank">Learn More</a>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-easel"></i>
+                <i class="bi bi-palette"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Home Interior Design Products</h3>
-              </a>
-              <p>CloudbotsCR simplifies the shopping experience for home interior design products by providing instant assistance, order tracking, and personalized recommendations through AI chatbots. Paired with Liberty Express Santa Teresa</p>
+              <h3>Home Design Assistant</h3>
+              <p>AI shopping assistant providing instant product recommendations, order tracking, and personalized support for home interior design products.</p>
+              <a href="https://shop.cloudbotscr.com/collections/home-design" class="stretched-link" target="_blank">Shop Now</a>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
+                <i class="bi bi-robot"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Chatbots & AI Agents</h3>
-              </a>
-              <p>Automate customer interactions and enhance engagement with intelligent AI-powered chatbots and virtual assistants for Home, Entrepreneurship and Social Services, providing 24/7 support and personalized experiences.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <h3>Enterprise Chatbots & AI Agents</h3>
+              <p>Custom AI chatbots built on Amazon Lex and Bedrock for 24/7 customer engagement, home automation, business operations, and social services.</p>
+              <a href="#contact" class="stretched-link">Request Demo</a>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
+                <i class="bi bi-gem"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Accessories and Essentials</h3>
-              </a>
-              <p>CloudbotsCR makes buying accessories and essentials online effortless with AI chatbots that assist with product search, order status, and personalized support. Powered by Liberty Express Santa Teresa.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <h3>Accessories & Essentials</h3>
+              <p>Curated marketplace with AI-powered shopping assistance for lifestyle accessories, delivered through Liberty Express Santa Teresa.</p>
+              <a href="https://shop.cloudbotscr.com/collections/accessories" class="stretched-link" target="_blank">Browse Collection</a>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
+                <i class="bi bi-cloud-arrow-up"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Website Cloud Automation</h3>
-              </a>
-              <p>CloudbotsCR powers website cloud automation with intelligent chatbots that handle customer inquiries, bookings, and transactions around the clock.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <h3>Cloud Automation Platform</h3>
+              <p>Full-stack AWS cloud automation for websites and applications with intelligent chatbots handling inquiries, bookings, and transactions.</p>
+              <a href="#pricing" class="stretched-link">View Plans</a>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
         </div>
-
       </div>
-
-    </section><!-- /Services Section -->
+    </section>
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section dark-background">
-
-      <img src="assets/img/cta-bg.jpg" alt="">
+      <img src="assets/img/cta-bg.jpg" alt="Cloud transformation background">
 
       <div class="container">
-
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-xl-9 text-center text-xl-start">
-            <h3>Call To Action</h3>
-            <p>Ready to Transform Your Business with Cloud & AI? Let CloudBotsCR help you streamline operations and drive innovation. Contact us today to start your digital transformation journey!</p>
+            <h3>Ready to Transform Your Business?</h3>
+            <p>Join the AI revolution with CloudBotsCR. Let us help you streamline operations, enhance customer experience, and drive innovation with our AWS-powered solutions.</p>
           </div>
           <div class="col-xl-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#contact">Get Free Demo</a>
           </div>
         </div>
-
       </div>
-
-    </section><!-- /Call To Action Section -->
+    </section>
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>These are our products and services available to you:</p>
-      </div><!-- End Section Title -->
+        <h2>Our Solutions</h2>
+        <p>Explore our AI-powered products and services available through AWS infrastructure and Shopify integration:</p>
+      </div>
 
       <div class="container">
-
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">CloudBotsCR</li>
-            <li data-filter=".filter-product">Products</li>
-            <li data-filter=".filter-branding">Services</li>
-            <li data-filter=".filter-books">Business-to-Xryting(B2X)</li>
-          </ul><!-- End Portfolio Filters -->
+            <li data-filter=".filter-bots">AI Chatbots</li>
+            <li data-filter=".filter-products">Products</li>
+            <li data-filter=".filter-services">Services</li>
+          </ul>
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bots">
               <div class="portfolio-content h-100">
-                <a href="assets/img/social-services-and-adult-care-assistance.webp" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/social-services-and-adult-care-assistance.webp" class="img-fluid" alt=""></a>
+                <a href="assets/img/social-services-and-adult-care-assistance.webp" data-gallery="portfolio-gallery" class="glightbox">
+                  <img src="assets/img/social-services-and-adult-care-assistance.webp" class="img-fluid" alt="Social Services AI Bot">
+                </a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Social Services Bot </a></h4>
-                  <p>Enhance customer engagement with 24/7 AI-powered chatbots through personalized interactions.</p>
+                  <h4>Social Services AI Bot</h4>
+                  <p>24/7 AI-powered support for healthcare and social services with personalized interactions and AWS Lex integration.</p>
+                  <a href="#contact" class="btn-portfolio">Request Demo</a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-services">
               <div class="portfolio-content h-100">
-                <a href="assets/img/premium gummies.webp" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/premium gummies.webp" class="img-fluid" alt=""></a>
+                <a href="assets/img/vacation rentals.webp" data-gallery="portfolio-gallery" class="glightbox">
+                  <img src="assets/img/vacation rentals.webp" class="img-fluid" alt="Vacation Rentals">
+                </a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Your Product Here</a></h4>
-                  <p>Describe your Product here!!!</p>
+                  <h4>Vacation Rentals</h4>
+                  <p>Beautiful Costa Rica properties near beaches and mountains with AI-powered booking system.</p>
+                  <a href="https://shop.cloudbotscr.com/collections/rentals" class="btn-portfolio" target="_blank">View Properties</a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bots">
               <div class="portfolio-content h-100">
-                <a href="assets/img/vacation rentals.webp" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/vacation rentals.webp" class="img-fluid" alt=""></a>
+                <a href="assets/img/marketplace-website-chatbot.webp" data-gallery="portfolio-gallery" class="glightbox">
+                  <img src="assets/img/marketplace-website-chatbot.webp" class="img-fluid" alt="Business Chatbot">
+                </a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Cabinas/Apts/Villas</a></h4>
-                  <p>Experience the beauty of Costa Rica with our mid-tier rental properties close to the beach or mountain.</p>
+                  <h4>Business & Entrepreneur Bot</h4>
+                  <p>Automate operations and boost productivity with enterprise AI chatbots on AWS infrastructure.</p>
+                  <a href="#pricing" class="btn-portfolio">View Plans</a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-services">
               <div class="portfolio-content h-100">
-                <a href="assets/img/uniforms for various professionals.webp" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/uniforms for various professionals.webp" class="img-fluid" alt=""></a>
+                <a href="assets/img/Liberty Express Santa Teresa.webp" data-gallery="portfolio-gallery" class="glightbox">
+                  <img src="assets/img/Liberty Express Santa Teresa.webp" class="img-fluid" alt="Liberty Express">
+                </a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Uniforms for Professionals </a></h4>
-                  <p>Quality Uniforms for Professionals in Every Industry! Durable, stylish, and comfortable uniforms for healthcare, hospitality, etc.</p>
+                  <h4>Liberty Express Santa Teresa</h4>
+                  <p>Fast, reliable Amazon delivery to Costa Rica with AI-powered tracking and notifications.</p>
+                  <a href="https://shop.cloudbotscr.com/pages/shipping" class="btn-portfolio" target="_blank">Learn More</a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-bots">
               <div class="portfolio-content h-100">
-                <a href="assets/img/marketplace-website-chatbot.webp" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/marketplace-website-chatbot.webp" class="img-fluid" alt=""></a>
+                <a href="assets/img/home-technology-application.webp" data-gallery="portfolio-gallery" class="glightbox">
+                  <img src="assets/img/home-technology-application.webp" class="img-fluid" alt="Home Tech Bot">
+                </a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Business & Entreprenuer Bot</a></h4>
-                  <p>Automate repetitive tasks and improve efficiency, allowing your team to focus on higher-value work.</p>
+                  <h4>Home Technology Bot</h4>
+                  <p>IoT integration and smart home automation with AI-driven personalization and control.</p>
+                  <a href="#contact" class="btn-portfolio">Request Demo</a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-products">
               <div class="portfolio-content h-100">
-                <a href="assets/img/premium vapes.webp" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/premium vapes.webp" class="img-fluid" alt=""></a>
+                <a href="assets/img/home design products luxurious.webp" data-gallery="portfolio-gallery" class="glightbox">
+                  <img src="assets/img/home design products luxurious.webp" class="img-fluid" alt="Home Design">
+                </a>
                 <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Your Product Here</a></h4>
-                  <p>Describe your Product here!!!</p>
+                  <h4>Home Design Collection</h4>
+                  <p>Curated décor and accessories for beautiful, functional living spaces.</p>
+                  <a href="https://shop.cloudbotscr.com/collections/home-design" class="btn-portfolio" target="_blank">Shop Now</a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/Liberty Express Santa Teresa.webp" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/Liberty Express Santa Teresa.webp" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Liberty Express Santa Teresa</a></h4>
-                  <p>Fast & Reliable Door-to-Door Delivery to get your purchases delivered straight to your door in Costa Rica.</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/premium accessories.webp" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/premium accessories.webp" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Accessories</a></h4>
-                  <p> Explore a wide selection of lifestyle accessories designed to complement your style and everyday needs.</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/home-technology-application.webp" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/home-technology-application.webp" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Home Technology Bot</a></h4>
-                  <p> Boost customer satisfaction with quick responses, seamless interactions, and AI-driven personalization.</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/premium tinctures.webp" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/premium tinctures.webp" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Your Product Here</a></h4>
-                  <p>Describe your Product here!!!</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/architecture and interior design.webp" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/architecture and interior design.webp" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Your Service Here</a></h4>
-                  <p>Describe your Service here!!!</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/home design products luxurious.webp" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/home design products luxurious.webp" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Home Design Products</a></h4>
-                  <p>Discover handpicked décor and accessories that bring beauty, comfort, and functionality to your home.</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
+          </div>
         </div>
-
       </div>
-
-    </section><!-- /Portfolio Section -->
+    </section>
 
     <!-- Pricing Section -->
     <section id="pricing" class="pricing section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Pricing</h2>
-        <p>We offer very competitive market prices depending on your customization needs.</p>
-      </div><!-- End Section Title -->
+        <h2>AI SaaS Pricing</h2>
+        <p>Flexible cloud-based pricing for businesses of all sizes. All plans include AWS infrastructure.</p>
+      </div>
 
       <div class="container">
-
         <div class="row gy-4">
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="pricing-item">
               <h3>Startup Plan</h3>
-              <p class="description">Perfect for emerging businesses, entrepreneurs, and innovators in the cloud space.</p>
-              <h4><sup></sup><span> </span></h4>
-              <a href="#" class="cta-btn">Contact us for a FREE Demo</a>
-              <p class="text-center small">No credit card required</p>
+              <p class="description">Perfect for emerging businesses and entrepreneurs starting their AI journey.</p>
+              <h4><sup>$</sup>299<span> / month</span></h4>
+              <a href="#contact" class="cta-btn">Start Free Trial</a>
+              <p class="text-center small">14-day free trial • No credit card required</p>
               <ul>
-                <li><i class="bi bi-check"></i> <span>Unlock essential AI Features to kickstart your cloud/AI journey</span></li>
-                <li><i class="bi bi-check"></i> <span>Cloud Storage</span></li>
-                <li><i class="bi bi-check"></i> <span></span></li>
-                <li class="na"><i class="bi bi-x"></i> <span></span></li>
-                <li class="na"><i class="bi bi-x"></i> <span></span></li>
-                <li class="na"><i class="bi bi-x"></i> <span></span></li>
-                <li class="na"><i class="bi bi-x"></i> <span></span></li>
+                <li><i class="bi bi-check"></i> <span>1 AI Chatbot (Amazon Lex)</span></li>
+                <li><i class="bi bi-check"></i> <span>AWS Lambda Functions</span></li>
+                <li><i class="bi bi-check"></i> <span>DynamoDB Storage (10GB)</span></li>
+                <li><i class="bi bi-check"></i> <span>1,000 messages/month</span></li>
+                <li><i class="bi bi-check"></i> <span>Email Support</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Custom Integrations</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Priority Support</span></li>
               </ul>
             </div>
-          </div><!-- End Pricing Item -->
+          </div>
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="pricing-item featured">
-              <p class="popular">Popular</p>
+              <p class="popular">Most Popular</p>
               <h3>Growth Plan</h3>
-              <p class="description">Designed for growing companies aiming for the next step with cloud automation.</p>
-              <h4><sup></sup><span></span></h4>
-              <a href="#" class="cta-btn">Contact us for a FREE Demo</a>
-              <p class="text-center small">No credit card required</p>
+              <p class="description">Designed for growing companies scaling with AI automation.</p>
+              <h4><sup>$</sup>799<span> / month</span></h4>
+              <a href="#contact" class="cta-btn">Start Free Trial</a>
+              <p class="text-center small">14-day free trial • No credit card required</p>
               <ul>
-                <li><i class="bi bi-check"></i> <span>Get advanced AI capabilities to scale your operations seamlessly.</span></li>
-                <li><i class="bi bi-check"></i> <span></span></li>
-                <li><i class="bi bi-check"></i> <span></span></li>
-                <li><i class="bi bi-check"></i> <span></span></li>
-                <li><i class="bi bi-check"></i> <span></span></li>
-                <li><i class="bi bi-check"></i> <span></span></li>
-                <li class="na"><i class="bi bi-x"></i> <span></span></li>
+                <li><i class="bi bi-check"></i> <span>5 AI Chatbots (Amazon Lex + Bedrock)</span></li>
+                <li><i class="bi bi-check"></i> <span>Advanced Lambda Functions</span></li>
+                <li><i class="bi bi-check"></i> <span>DynamoDB Storage (100GB)</span></li>
+                <li><i class="bi bi-check"></i> <span>10,000 messages/month</span></li>
+                <li><i class="bi bi-check"></i> <span>Priority Support</span></li>
+                <li><i class="bi bi-check"></i> <span>Custom Integrations</span></li>
+                <li><i class="bi bi-check"></i> <span>Analytics Dashboard</span></li>
               </ul>
             </div>
-          </div><!-- End Pricing Item -->
+          </div>
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="pricing-item">
               <h3>Enterprise Plan</h3>
-              <p class="description">Our permium offering for established enterprises.</p>
-              <h4><sup></sup><span></span></h4>
-              <a href="#" class="cta-btn">Contact us for a FREE Demo</a>
-              <p class="text-center small">No credit card required</p>
+              <p class="description">Complete AI infrastructure for established enterprises.</p>
+              <h4><sup>$</sup>Custom<span> pricing</span></h4>
+              <a href="#contact" class="cta-btn">Contact Sales</a>
+              <p class="text-center small">Custom SLA • Dedicated support</p>
               <ul>
-                <li><i class="bi bi-check"></i> <span>Enjoy comprehensive AI tool, customized solutions, and dedicated support.</span></li>
-                <li><i class="bi bi-check"></i> <span></span></li>
-                <li><i class="bi bi-check"></i> <span></span></li>
-                <li><i class="bi bi-check"></i> <span></span></li>
-                <li><i class="bi bi-check"></i> <span></span></li>
-                <li><i class="bi bi-check"></i> <span></span></li>
-                <li><i class="bi bi-check"></i> <span></span></li>
+                <li><i class="bi bi-check"></i> <span>Unlimited AI Chatbots</span></li>
+                <li><i class="bi bi-check"></i> <span>Full AWS Stack Access</span></li>
+                <li><i class="bi bi-check"></i> <span>Unlimited Storage</span></li>
+                <li><i class="bi bi-check"></i> <span>Unlimited Messages</span></li>
+                <li><i class="bi bi-check"></i> <span>24/7 Dedicated Support</span></li>
+                <li><i class="bi bi-check"></i> <span>Custom AI Model Training</span></li>
+                <li><i class="bi bi-check"></i> <span>White-Label Solutions</span></li>
               </ul>
             </div>
-          </div><!-- End Pricing Item -->
+          </div>
 
         </div>
-
       </div>
-
-    </section><!-- /Pricing Section -->
+    </section>
 
     <!-- Team Section -->
     <section id="team" class="team section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <p>Meet our team of professionals with expertise in different areas.</p>
-      </div><!-- End Section Title -->
+        <h2>Our Team</h2>
+        <p>Meet our cloud and AI experts dedicated to your success.</p>
+      </div>
 
       <div class="container">
-
         <div class="row gy-4">
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/randy-cayasso.jpg" class="img-fluid" alt="Randy Cayasso"></div>
               <div class="member-info">
                 <h4>Randy Cayasso</h4>
                 <span>Cloud Solutions Architect</span>
-                <p>Visionary business and techology innovator.</p>
+                <p>AWS-certified visionary leading CloudBotsCR's AI and cloud infrastructure strategy.</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Jane Doe</h4>
-                <span>Business Title</span>
-                <p>Expertise Description</p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/ivan-cerdas.jpg" class="img-fluid" alt="Ivan Cerdas"></div>
               <div class="member-info">
                 <h4>Ivan Cerdas</h4>
                 <span>Brand Creator - Oak Society</span>
-                <p>Expert on brand development and strategic positioning.</p>
+                <p>Expert in brand development and strategic positioning for tech companies.</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/alejandra-saenz.jpg" class="img-fluid" alt="Alejandra Saenz"></div>
               <div class="member-info">
                 <h4>Alejandra Saenz</h4>
-                <span>Product Design and Marketing - Arcana</span>
-                <p>Strategic marketing expert and product desing specialist.</p>
+                <span>Product Design & Marketing - Arcana</span>
+                <p>Strategic marketing expert specializing in AI product design and market positioning.</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
-          </div><!-- End Team Member -->
+          </div>
 
         </div>
-
       </div>
-
-    </section><!-- /Team Section -->
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact Us</h2>
-        <p>We are available for inquiries in following channels:</p>
-      </div><!-- End Section Title -->
+        <p>Get in touch to start your AI transformation journey.</p>
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/place/8634+Southampton+Dr,+Miramar,+FL+33025,+EE.+UU./@25.9778897,-80.2576608,17z/data=!4m15!1m8!3m7!1s0x88d9af412cf522df:0x432fa7b4cc9d6b!2s8634+Southampton+Dr,+Miramar,+FL+33025,+EE.+UU.!3b1!8m2!3d25.9778897!4d-80.2576608!16s%2Fg%2F11c2581w2m!3m5!1s0x88d9af412cf522df:0x432fa7b4cc9d6b!8m2!3d25.9778897!4d-80.2576608!16s%2Fg%2F11c2581w2m?entry=ttu&g_ep=EgoyMDI1MDMwMi4wIKXMDSoASAFQAw%3D%3D" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div><!-- End Google Maps -->
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.0!2d-84.0!3d9.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTQnMDAuMCJOIDg0wrAwMCcwMC4wIlc!5e0!3m2!1sen!2scr!4v1234567890" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
         <div class="row gy-4">
 
@@ -638,9 +526,9 @@
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h3>Address</h3>
-                <p>Plaza del Prado, Curridabat, San Jose, 11801</p>
+                <p>Plaza del Prado, Curridabat<br>San José, Costa Rica 11801</p>
               </div>
-            </div><!-- End Info Item -->
+            </div>
 
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-telephone flex-shrink-0"></i>
@@ -648,7 +536,7 @@
                 <h3>Call Us</h3>
                 <p>+506 8847-2858</p>
               </div>
-            </div><!-- End Info Item -->
+            </div>
 
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
               <i class="bi bi-envelope flex-shrink-0"></i>
@@ -656,20 +544,44 @@
                 <h3>Email Us</h3>
                 <p>cloudbotscr@gmail.com</p>
               </div>
-            </div><!-- End Info Item -->
+            </div>
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="600">
+              <i class="bi bi-clock flex-shrink-0"></i>
+              <div>
+                <h3>Business Hours</h3>
+                <p>Mon-Fri: 8:00 AM - 6:00 PM CST<br>AI Bots Available 24/7</p>
+              </div>
+            </div>
 
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200" id="contact-form">
               <div class="row gy-4">
 
                 <div class="col-md-6">
                   <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
                 </div>
 
-                <div class="col-md-6 ">
+                <div class="col-md-6">
                   <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <input type="tel" class="form-control" name="phone" placeholder="Your Phone">
+                </div>
+
+                <div class="col-md-6">
+                  <select class="form-control" name="service" required="">
+                    <option value="">Select Service</option>
+                    <option value="property-rental">Property Rental AI</option>
+                    <option value="courier">Liberty Express</option>
+                    <option value="chatbot">AI Chatbot Development</option>
+                    <option value="home-tech">Home Technology</option>
+                    <option value="business">Business Automation</option>
+                    <option value="other">Other</option>
+                  </select>
                 </div>
 
                 <div class="col-md-12">
@@ -690,37 +602,79 @@
 
               </div>
             </form>
-          </div><!-- End Contact Form -->
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Contact Section -->
+    </section>
 
   </main>
 
   <footer id="footer" class="footer dark-background">
     <div class="container">
       <h3 class="sitename">CloudBotsCR</h3>
-      <p>Automated solutions for your brand, products and services.</p>
+      <p>AI-Powered Cloud Solutions • AWS Infrastructure • Shopify Integration</p>
+      
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
       </div>
-      <div class="container">
+
+      <div class="footer-links mt-4">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h4>AI Solutions</h4>
+            <ul>
+              <li><a href="#property-rental">Property Rental Bot</a></li>
+              <li><a href="#chatbot-services">Chatbot Services</a></li>
+              <li><a href="#home-tech">Home Technology</a></li>
+              <li><a href="#business-bots">Business Automation</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="https://shop.cloudbotscr.com/collections/home-design" target="_blank">Home Design</a></li>
+              <li><a href="https://shop.cloudbotscr.com/collections/accessories" target="_blank">Accessories</a></li>
+              <li><a href="https://shop.cloudbotscr.com/pages/shipping" target="_blank">Shipping Info</a></li>
+              <li><a href="https://shop.cloudbotscr.com" target="_blank">Shop All</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">API Reference</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-4">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">CloudBotsCR</strong> <span>All Rights Reserved</span>
+          <span>Copyright</span> <strong class="px-1 sitename">CloudBotsCR</strong> <span>All Rights Reserved © 2025</span>
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">Bootstrap Made</a>
+          Powered by <a href="https://aws.amazon.com/">AWS</a> • Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
     </div>
@@ -745,6 +699,114 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-</body>
+  <!-- Custom CloudBots JS -->
+  <script>
+    // Initialize AOS animations
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    });
 
+    // Shopify Buy Button Integration
+    (function() {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
+
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+
+      function ShopifyBuyInit() {
+        // Initialize Shopify Buy Button when ready
+        console.log('Shopify integration ready');
+      }
+    })();
+
+    // Form submission handling (integrate with AWS API Gateway)
+    document.getElementById('contact-form')?.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      
+      const formData = new FormData(this);
+      const data = Object.fromEntries(formData);
+      
+      try {
+        // Replace with your AWS API Gateway endpoint
+        const response = await fetch('https://YOUR-API-GATEWAY-URL.execute-api.us-east-1.amazonaws.com/prod/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data)
+        });
+
+        if (response.ok) {
+          document.querySelector('.sent-message').style.display = 'block';
+          this.reset();
+        } else {
+          document.querySelector('.error-message').textContent = 'Failed to send message. Please try again.';
+          document.querySelector('.error-message').style.display = 'block';
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        document.querySelector('.error-message').textContent = 'An error occurred. Please try again.';
+        document.querySelector('.error-message').style.display = 'block';
+      }
+    });
+
+    // Track page views with Amazon CloudWatch (when configured)
+    if (typeof awsrum !== 'undefined') {
+      awsrum('recordPageView', window.location.pathname);
+    }
+
+    // ChatBot Widget Integration (placeholder for Amazon Lex)
+    window.addEventListener('load', function() {
+      // Initialize chatbot widget here when AWS Lex is configured
+      console.log('Ready for AWS Lex chatbot integration');
+    });
+  </script>
+
+  <!-- AWS RUM (Real User Monitoring) - Replace with your App Monitor ID -->
+  <!--
+  <script>
+    (function(n,i,v,r,s,c,x,z){
+      x=window.AwsRumClient={q:[],n:n,i:i,v:v,r:r,c:c};
+      window[n]=function(c,p){x.q.push({c:c,p:p});};
+      z=document.createElement('script');
+      z.async=true;
+      z.src=s;
+      document.head.insertBefore(z,document.head.getElementsByTagName('script')[0]);
+    })(
+      'cwr',
+      'YOUR-APP-MONITOR-ID',
+      '1.0.0',
+      'us-east-1',
+      'https://client.rum.us-east-1.amazonaws.com/1.x/cwr.js',
+      {
+        sessionSampleRate: 1,
+        guestRoleArn: 'YOUR-COGNITO-IDENTITY-POOL-ARN',
+        identityPoolId: 'YOUR-IDENTITY-POOL-ID',
+        endpoint: 'https://dataplane.rum.us-east-1.amazonaws.com',
+        telemetries: ['performance','errors','http'],
+        allowCookies: true,
+        enableXRay: false
+      }
+    );
+  </script>
+  -->
+
+</body>
 </html>
