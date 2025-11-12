@@ -11,10 +11,31 @@
 			"file": "Index.html",
 			"settings":
 			{
-				"buffer_size": 41966,
+				"buffer_size": 41958,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					9,
+					"left_delete",
+					null,
+					"CQAAAMgAAAAAAAAAyAAAAAAAAAABAAAAYccAAAAAAAAAxwAAAAAAAAABAAAAY8YAAAAAAAAAxgAAAAAAAAABAAAAacUAAAAAAAAAxQAAAAAAAAABAAAAUsQAAAAAAAAAxAAAAAAAAAABAAAAIMMAAAAAAAAAwwAAAAAAAAABAAAAYcIAAAAAAAAAwgAAAAAAAAABAAAAdMEAAAAAAAAAwQAAAAAAAAABAAAAc8AAAAAAAAAAwAAAAAAAAAABAAAAbw",
+					"AQAAAAAAAAABAAAAyQAAAAAAAADJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "R"
+					},
+					"AQAAAMAAAAAAAAAAwQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
 		},
 		{
 			"file": "CloudBots&Shopify.html",
@@ -144,11 +165,10 @@
 				{
 					"buffer": 0,
 					"file": "Index.html",
-					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 41966,
+						"buffer_size": 41958,
 						"regions":
 						{
 						},
@@ -156,7 +176,7 @@
 						[
 							[
 								0,
-								0
+								41958
 							]
 						],
 						"settings":
@@ -169,13 +189,14 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
 					"file": "CloudBots&Shopify.html",
+					"selected": true,
 					"semi_transient": true,
 					"settings":
 					{
@@ -200,7 +221,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"stack_multiselect": false,
 					"type": "text"
 				}
