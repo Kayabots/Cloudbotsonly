@@ -11,7 +11,7 @@
 			"file": "Index.html",
 			"settings":
 			{
-				"buffer_size": 41958,
+				"buffer_size": 41966,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
@@ -23,7 +23,7 @@
 					"left_delete",
 					null,
 					"CQAAAMgAAAAAAAAAyAAAAAAAAAABAAAAYccAAAAAAAAAxwAAAAAAAAABAAAAY8YAAAAAAAAAxgAAAAAAAAABAAAAacUAAAAAAAAAxQAAAAAAAAABAAAAUsQAAAAAAAAAxAAAAAAAAAABAAAAIMMAAAAAAAAAwwAAAAAAAAABAAAAYcIAAAAAAAAAwgAAAAAAAAABAAAAdMEAAAAAAAAAwQAAAAAAAAABAAAAc8AAAAAAAAAAwAAAAAAAAAABAAAAbw",
-					"AQAAAAAAAAABAAAAyQAAAAAAAADJAAAAAAAAAAAAAAAAAPC/"
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADJAAAAAAAAAMkAAAAAAAAAAAAAAAAA8L8"
 				],
 				[
 					4,
@@ -33,7 +33,35 @@
 						"characters": "R"
 					},
 					"AQAAAMAAAAAAAAAAwQAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					2,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMAAAAAAAAAAwAAAAAAAAAABAAAAUg",
+					"AQAAAAAAAAABAAAAwQAAAAAAAADBAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "osta"
+					},
+					"BAAAAMAAAAAAAAAAwQAAAAAAAAAAAAAAwQAAAAAAAADCAAAAAAAAAAAAAADCAAAAAAAAAMMAAAAAAAAAAAAAAMMAAAAAAAAAxAAAAAAAAAAAAAAA",
 					"AQAAAAAAAAABAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": " Rica"
+					},
+					"BQAAAMQAAAAAAAAAxQAAAAAAAAAAAAAAxQAAAAAAAADGAAAAAAAAAAAAAADGAAAAAAAAAMcAAAAAAAAAAAAAAMcAAAAAAAAAyAAAAAAAAAAAAAAAyAAAAAAAAADJAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxAAAAAAAAADEAAAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		},
@@ -165,18 +193,19 @@
 				{
 					"buffer": 0,
 					"file": "Index.html",
+					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 41958,
+						"buffer_size": 41966,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								41958
+								201,
+								201
 							]
 						],
 						"settings":
@@ -189,14 +218,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
 					"file": "CloudBots&Shopify.html",
-					"selected": true,
 					"semi_transient": true,
 					"settings":
 					{
@@ -221,7 +249,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"stack_multiselect": false,
 					"type": "text"
 				}
